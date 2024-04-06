@@ -2,7 +2,7 @@ var video = document.querySelector("video");
 
 function updateVol() {
 	let vol = document.querySelector("#volume");
-	vol.innerHTML = video.volume*100 + "%";
+	vol.innerHTML = video.volume * 100 + "%";
 }
 
 window.addEventListener("load", function() {
